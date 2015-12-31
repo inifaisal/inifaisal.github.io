@@ -117,8 +117,8 @@ pages_list:
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "scripts"]
-
-pygments: true
+highlighter:
+  pygments: true
 
 # Enable minification SASS
 

@@ -18,9 +18,9 @@ Sebelum kita menghosting website kita digithub, sebaiknya kita siapkan dulu tool
 
 Pertama cek dulu apakah ruby sudah terinstall di komputer/laptop kalian, dengan mengetikkan perintah berikut diterminal (cmd)
 
-```console
+{% highlight console %}
 $ ruby -v
-```
+{% endhighlight %}
 
 jika hasilnya seperti
 
