@@ -243,44 +243,6 @@ hr{
         }
     }
 }
-// .pagination {
-//     margin: 0;
-//     display: block;
-//     position: relative;
-//     text-align: center;
-//     width: 100%;
-//     a {
-//         text-transform: capitalize;
-//         color: $font-color;
-//         &:hover,
-//         &:focus,
-//         &:active {
-//             color: darken($font-color, 10%);
-//         }
-//     }
-
-//     .next {
-//         position: absolute;
-//         right: 0;
-//     }
-
-//     .prev {
-//         left: 0;
-//         position: absolute;
-//     }
-
-//     .number {
-//         display: inline-block;
-//         padding: 0 8px;
-//         ul {
-//             list-style: none;
-//             display: block;
-//         }
-//         a {
-//             font-weight: 600;
-//         }
-//     }
-// }
 
 
 .lagi-dikerjakan{
@@ -348,8 +310,6 @@ hr{
     ul,
     ol {
         text-align: left;
-        font-size: 18px;
-        line-height: 1.5;
     }
     pre {
         border: none;
