@@ -18,25 +18,25 @@ Sebelum kita menghosting website kita digithub, sebaiknya kita siapkan dulu tool
 
 Pertama cek dulu apakah ruby sudah terinstall di komputer/laptop kalian, dengan mengetikkan perintah berikut diterminal (cmd)
 
-{% highlight bash %}
+```console
 $ ruby -v
-{% endhighlight %}
+```
 
 jika hasilnya seperti
 
-	{% highlight bash %}
+{% highlight console %}
 $ ruby x.x.x bla bla bla ..
 {% endhighlight %}
 
 berarti ruby sudah terinstall di komputer/laptop kalian, jika hasilnya berbeda, silahkan install dulu ruby di komputer/laptop kalian, caranya untuk pengguna ubuntu, silahkan buka terminal dan ketikkan perintah berikut!
 
-{% highlight bash %}
+{% highlight console %}
 $ sudo apt-get install ruby
 {% endhighlight %}
 
 jika sudah terinstall, kita lanjut install jekyll, masih di terminal, ketikkan perintah berikut!
 
-{% highlight bash %}
+{% highlight console %}
 $ gem install jekyll
 {% endhighlight %}
 
