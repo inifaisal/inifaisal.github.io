@@ -118,7 +118,7 @@ pages_list:
 
 exclude: ["LICENSE", "README.md", "scripts"]
 
-
+pygments: true
 
 # Enable minification SASS
 
