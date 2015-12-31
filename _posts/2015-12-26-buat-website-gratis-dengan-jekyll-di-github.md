@@ -56,7 +56,7 @@ dan buka browser favorite kalian, masukkan alamat 127.0.0.1:4000, maka website k
 
 - Buat dulu [repository baru di github](https://github.com/new), namakan dengan "username-kalian.github.io"
 
-![menamakan repositori baru di github]({{ site.baseurl }}/img/menamakan-repository-baru-di-github.png)
+![menamakan repositori baru di github](/img/menamakan-repository-baru-di-github.png)
 
 pilihan "*Initialize this repository with a README*" jangan di centang!
 
