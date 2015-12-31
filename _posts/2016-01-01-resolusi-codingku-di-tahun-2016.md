@@ -1,9 +1,9 @@
 ---
 layout: post
 section-type: post
-title: Resolusiku di Tahun 2016
+title: Resolusiku Codingku di Tahun 2016
 category: General
-tags: [ 'resolusi']
+tags: [ 'resolusi', 'javascript', 'android', 'php', 'laravel', 'angular']
 ---
 
 Selamat Tahun Baru 2016 sebelumnya, Semoga di tahun ini hidup kita bisa lebih sukses lagi, Amin. Seperti kebanyakan ritual orang-orang ditahun baru adalah memulainya dengan membuat sebuah resolusi hidup dalam 1 tahun kedepan, nah saya disini tidak akan buat resolusi hidup melainkan adalah sebuah resolusi coding, berikut ini daftarnya :smile::
