@@ -18,39 +18,40 @@ Sebelum kita menghosting website kita digithub, sebaiknya kita siapkan dulu tool
 
 Pertama cek dulu apakah ruby sudah terinstall di komputer/laptop kalian, dengan mengetikkan perintah berikut diterminal (cmd)
 
-{% highlight console %}
+
+``` bash
 $ ruby -v
-{% endhighlight %}
+```
 
 jika hasilnya seperti
 
-{% highlight console %}
+``` bash
 $ ruby x.x.x bla bla bla ..
-{% endhighlight %}
+```
 
 berarti ruby sudah terinstall di komputer/laptop kalian, jika hasilnya berbeda, silahkan install dulu ruby di komputer/laptop kalian, caranya untuk pengguna ubuntu, silahkan buka terminal dan ketikkan perintah berikut!
 
-{% highlight console %}
+``` bash
 $ sudo apt-get install ruby
-{% endhighlight %}
+```
 
 jika sudah terinstall, kita lanjut install jekyll, masih di terminal, ketikkan perintah berikut!
 
-{% highlight console %}
+``` bash
 $ gem install jekyll
-{% endhighlight %}
+```
 
 setelah itu, saatnya memulai membuat website kita, ketikkan perintah berikut pada terminal kalian!
 
-{% highlight bash %}
+``` bash
 $ jekyll new nama-blog-kalian
-{% endhighlight %}
+```
 
 dan cd ke directori "nama-blog-kalian", karena Jekyll sudah disertakan webserver maka kalian dapat melihat website kalian secara local, untuk melakukan hal tersebut, silahkan ketikkan perintah berikut pada terminal!
 
-{% highlight bash %}
+``` bash
 $ jekyll serve
-{% endhighlight %}
+```
 
 dan buka browser favorite kalian, masukkan alamat 127.0.0.1:4000, maka website kalian pun telah jadi. Saatnya kita mengupload website kalian tadi ke repositori github, caranya adalah sebagai berikut:
 
@@ -62,13 +63,13 @@ pilihan "*Initialize this repository with a README*" jangan di centang!
 
 - Pada terminal ketikkan perintah berikut!
 
-{% highlight bash %}
+``` bash
 $ git init
 $ git add --all
 $ git commit -m "First commit"
 $ git remote add origin remote repository https://github.com/xxx/xxx.github.io
 $ git push origin master
-{% endhighlight %}
+```
 
 Jika semuanya sudah benar dan berjalan lancar, silahkan buka xxx.github.io pada browser dan horeee website kalian telah online.
 
