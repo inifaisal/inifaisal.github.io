@@ -1,0 +1,118 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://inifaisal.github.io"
+
+
+# the subpath of your site, e.g. /blog
+baseurl: ""
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-35880426-4"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "faisal"
+title: "ini Faisal"
+description: "Web Blognya si faisal, ngeblog tentang coding dan teknologi, catatan pelajaran otodidak tentang dunia pemrograman."
+keywords: "tutorial, php, java, javascript, angularjs, reactjs, coding, teknologi, gadget, linux, ubuntu, android"
+favicon: "/img/favicon.ico"
+
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+
+disqus-shortname: "inifaisal"
+
+###########
+# Contact #
+###########
+
+email: "inifaisal.id@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+
+  - title: "twitter"
+    url: "https://twitter.com/"
+  - title: "github"
+    url: "https://github.com/inifaisal"
+  - title: "rss"
+    url: "/feed.xml"
+
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  Blog: 'blog'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "scripts"]
+
+# Permalinks
+permalink: /:year/:month/:title
+
+
+# Pagination & path
+paginate: 10
+paginate_path: "blog/page:num/"
+
+# Archives Page
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    tag: 'tag'
+    category : 'categories'
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/category/:name/'
+
+# Markdown processor
+markdown: redcarpet
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-archives
+  - jemoji

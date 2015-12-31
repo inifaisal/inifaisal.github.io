@@ -1,0 +1,43 @@
+<div class="pagination">
+  <ul>
+    <li id="pagination-prev">
+      {% if paginator.previous_page %}
+        <a class="pagination-button" href="{{ paginator.previous_page_path }}">
+&laquo;
+        </a>
+      {% else %}
+        <span>
+          &raquo;
+        </span>
+      {% endif %}
+    </li>
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <li>
+          <span id="current-page">{{ page }}</span>
+        </li>
+      {% elsif page == 1 %}
+        <li>
+          <a href="{{ paginator.previous_page_path }}">{{ page }}</a>
+        </li>
+      {% else %}
+        <li>
+          <a href="/{{ site.paginate_path  | replace: ':num', page }}">{{ page }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+    <li id="pagination-next">
+      {% if paginator.next_page %}
+        <a class="pagination-button" href="{{ paginator.next_page_path }}">
+           &raquo;
+        </a>
+      {% else %}
+        <span>
+          &laquo;
+        </span>
+      {% endif %}
+    </li>
+  </ul>
+</div>

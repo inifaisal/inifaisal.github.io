@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+{% include head.html %}
+<body>
+  {% include navigation.html %}
+  <header class="header-bg page-error">
+    <section class="container">
+      <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+          <h1>Error 404</h1>
+          <h4>Sepertinya Anda tersesat.</h4>
+        </div>
+      </div>
+    </section>
+  </header>
+  <section class="container content-section text-center" style="min-height: 20%">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <div style="margin: 20% auto">
+         {{ page.content | markdownify }}
+       </div>
+     </div>
+   </div>
+ </section>
+ {% include explore.html %}
+ {% include footer.html %}
+ {% include js.html %}
+</body>
+</html>

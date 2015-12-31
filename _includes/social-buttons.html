@@ -1,0 +1,5 @@
+<ul class="list-inline social-buttons">
+	{% for network in site.social %}
+	<li><a href="{{ network.url }}"  class="s-icon s-icon-{{ network.title }}" target="_blank"></a></li>
+	{% endfor %}
+</ul>
