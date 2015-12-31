@@ -23,7 +23,7 @@ force-https: True
 # Time Zone #
 #############
 
-timezone: "+0800"
+#timezone: "+0800"
 
 #############
 # HTML Head #
@@ -119,8 +119,6 @@ pages_list:
 exclude: ["LICENSE", "README.md", "scripts"]
 
 
-# Markdown processor
-markdown: redcarpet
 
 # Enable minification SASS
 
