@@ -20,6 +20,12 @@ google-tracking-id: "UA-35880426-4"
 force-https: True
 
 #############
+# Time Zone #
+#############
+
+timezone: "+0800"
+
+#############
 # HTML Head #
 #############
 
@@ -37,6 +43,30 @@ favicon: "/img/favicon.ico"
 
 post-preview-words: 96
 
+# Permalinks
+permalink: /:year/:month/:title
+
+
+# Pagination & path
+paginate: 10
+paginate_path: "blog/page:num/"
+
+# Archives Page
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    tag: 'tag'
+    category : 'categories'
+  permalinks:
+    tag: '/tags/:name/'
+    category: '/category/:name/'
+
+
+################
+# Social Share #
+################
 
 fb-share: True
 twitter-share: True
@@ -47,6 +77,11 @@ tumblr-share: True
 pinterest-share: True
 pocket-share: True
 
+
+##########
+# Disqus #
+##########
+
 disqus-shortname: "inifaisal"
 
 ###########
@@ -55,9 +90,9 @@ disqus-shortname: "inifaisal"
 
 email: "inifaisal.id@gmail.com"
 
-##################
-# Social Buttons #
-##################
+#########################
+# Footer Social Buttons #
+#########################
 
 social:
 
@@ -83,25 +118,6 @@ pages_list:
 
 exclude: ["LICENSE", "README.md", "scripts"]
 
-# Permalinks
-permalink: /:year/:month/:title
-
-
-# Pagination & path
-paginate: 10
-paginate_path: "blog/page:num/"
-
-# Archives Page
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    tag: 'tag'
-    category : 'categories'
-  permalinks:
-    tag: '/tags/:name/'
-    category: '/category/:name/'
 
 # Markdown processor
 markdown: redcarpet
