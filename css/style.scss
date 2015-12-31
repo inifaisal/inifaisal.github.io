@@ -340,17 +340,7 @@ hr{
             color: $font-color, 20%;
             font-weight: 600;
         }
-        .post-category {
-            color: lighten($font-color, 20%);
-            text-transform: capitalize;
-        }
-        .post-tags {
-            float: right;
-            @media (max-width: 769px) {
-                float: none;
-            }
 
-        }
     }
 
     .related-post {
@@ -451,77 +441,6 @@ ul.social-buttons li {
     transition: all .3s;
 }
 
-}
-
-.expl {
-    background: $light;
-    margin: 0;
-    position: relative;
-}
-.explore {
-
-    .heading-fancy {
-        text-align: center;
-        padding: 20px 0;
-        text-transform: capitalize;
-        span {
-            position: relative;
-            &:before {
-                right: 100%;
-                margin-right: 40px;
-            }
-            &:after {
-                left: 100%;
-                margin-left: 40px;
-            }
-            &:before,
-            &:after{
-                content: " ";
-                position: absolute;
-                border-top: 2px solid #d6d6d6;
-                width: 470px;
-                height: 2px;
-                top: 50%;
-            }
-            @media(max-width: 769px){
-            	font-size: 20px;
-                &:before,
-                &:after{
-                    display: none;
-                }
-            }
-        }
-    }
-    h3 {
-        color: lighten($font-color, 25%);
-        text-transform: capitalize;
-        font-size: 17px;
-        @media(max-width: 769px){
-            font-size: 14px;
-        }
-    }
-    a {
-        font-weight: 600;
-        color: $font-color;
-        text-transform: capitalize;
-        &:hover,
-        &:focus,
-        &:active {
-            color: darken($font-color, 20%);
-            text-decoration: underline;
-        }
-        @media(max-width: 769px){
-            font-size: 13px;
-        }
-    }
-    ul{
-        list-style: none;
-        display: block;
-        padding: 5px 0;
-        li {
-            padding: 5px 0;
-        }
-    }
 }
 
 footer {
