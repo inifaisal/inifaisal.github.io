@@ -6,7 +6,7 @@ category: General
 tags: [ 'resolusi', 'javascript', 'android', 'php', 'laravel', 'angular']
 ---
 
-Selamat Tahun Baru 2016 sebelumnya, Semoga di tahun ini hidup kita bisa lebih sukses lagi, Amin. Seperti kebanyakan ritual orang-orang ditahun baru adalah memulainya dengan membuat sebuah resolusi hidup dalam 1 tahun kedepan, nah saya disini tidak akan buat resolusi hidup melainkan adalah sebuah resolusi coding, berikut ini daftarnya :smile::
+Selamat Tahun Baru 2016 sebelumnya, Semoga di tahun ini hidup kita bisa lebih sukses lagi, **Amin**. Seperti kebanyakan ritual orang-orang ditahun baru adalah memulainya dengan membuat sebuah resolusi hidup dalam 1 tahun kedepan, nah saya disini tidak akan buat resolusi hidup melainkan adalah sebuah resolusi coding, berikut ini daftarnya :smile::
 
 ### Perdalam Ilmu
 - Javascript [ angular, express, node, react, jQuery ]
@@ -26,4 +26,4 @@ Selamat Tahun Baru 2016 sebelumnya, Semoga di tahun ini hidup kita bisa lebih su
 - Ikut berkontribusi di proyek open source, minimal jadi translator :smile:
 - Buat tutorial di blog ini minimal 100 postingan sampai akhir tahun
 
-Ada saran lainnya? Silahkan ada berikan di kolom komentar, saran **Anda** sangat berarti bagi Saya!
+Ada saran lainnya? Silahkan anda berikan di kolom komentar, saran **Anda** sangat berarti bagi Saya!
