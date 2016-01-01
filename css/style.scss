@@ -224,8 +224,12 @@ hr{
         border-bottom:  1px solid lighten($page-error, 10%);
     }
      &.page-resume {
+        text-align: right;
         background: $page-resume;
-        border-bottom:  1px solid lighten($page-resume, 10%);
+        h1, h4 {
+          text-transform: none;
+        }
+
     }
 }
 
@@ -355,11 +359,16 @@ hr{
     }
 
     .resume  {
-        min-height: 60%;
 
+        margin-top: 50px;
+        margin-bottom: 50px;
         h2 {
             text-transform: capitalize;
             font-size: 18px;
+            padding: 10px 0;
+        }
+        .level {
+            color: $page-resume;
         }
 
     }
@@ -370,31 +379,67 @@ hr{
       display: inline !important;
     }
 }
-.pagination {
-display: block;
-  color: $font-color;
-  text-align: center;
-  padding: 10px 20px;
-  text-transform: uppercase;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    list-style: none;
-    li {
-      display: inline-block;
-      margin: 0 10px 0 0;
-      a {
-        color: #999;
-        transition: color 0.2s ease-in-out;
-        &:hover {
-          color: darken($font-color, 20%);
-        }
-      }
+
+.avatar {
+    position: relative;
+    float:left;
+    padding: 10px 0;
+    margin-bottom: -170px;
+    img{
+        width: 200px;
     }
+    @media(max-width: 769px){
+        margin-bottom: -110px;
+        img {
+            width: 130px;
+        }
+    }
+}
+.hireme-line {
+    height:50px;
+    width: 100%;
+    background: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    .btn {
+        margin: 0.6em;
+        float: right;
+        border-radius: 2px;
+        font-weight: 600;
+        color: #fafafa;
+        background: $page-resume;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+.pagination {
+    display: block;
+    color: $font-color;
+    text-align: center;
+    padding: 10px 20px;
+    text-transform: uppercase;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+        li {
+          display: inline-block;
+          margin: 0 10px 0 0;
+          a {
+            color: #999;
+            transition: color 0.2s ease-in-out;
+            &:hover {
+              color: darken($font-color, 20%);
+          }
+      }
   }
 }
+}
+
 #pagination {
   overflow: hidden;
   &-prev {
@@ -517,26 +562,6 @@ footer {
             background-position:-32px -96px; /* 96 */
         }
     }
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba($light, 0.2);
-}
-
-::selection {
-    text-shadow: none;
-    background: #fcfcfc;
-    background: rgba($light, 0.2);
-}
-
-img::selection {
-    background: transparent;
-}
-
-img::-moz-selection {
-    background: transparent;
 }
 
 body {

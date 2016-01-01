@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 {% include head.html %}
-
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
   {% include navigation.html %}
   <header class="header-bg page-resume">
@@ -10,22 +9,67 @@
         <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
           <h1>Hi, My Name is Faisal</h1>
           <h4>I'm Beginner Web &amp; Mobile (Android) Developer</h4>
+          <div class="avatar">
+            <img src="/img/avatar.jpg" class="img-thumbnail">
+          </div>
         </div>
       </div>
     </section>
   </header>
-  <section id="page" class="container content-section text-justify">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
-        <div class="resume">
-          <h2>Personal Infomation</h2>
-          <p>
-            I'm {{ site.time | date: "%Y" | minus: 1989 }} years old Web and Mobile Developer with passion for the Internet, Mobile and Digital World. I have been coding around {{ site.time | date: "%Y" | minus: 2012 }} years ago, i have no real project at this time, but i always learn new things about digital goods almost every days and this is my <a href="http://github.com/inifaisal">Github repo</a> if you interest to see what i do.
-          </p>
-        </div>
+  <div class="hireme-line">
+    <section class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <a href="https://twitter.com/faisal_ini" class="btn">Hire me &#33;</a>
+       </div>
+     </div>
+   </section>
+
+ </div>
+ <section id="page" class="container content-section text-justify">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+      <div class="resume">
+        <h2>Personal Infomation</h2>
+        <p>
+          I'm {{ site.time | date: "%Y" | minus: 1989 }} years old Web and Mobile Developer with passion for the Internet, Mobile and Digital World. I have been coding around {{ site.time | date: "%Y" | minus: 2012 }} years ago, at this time i have no real project, but i always learn new things about digital goods almost every days and this is my <a href="http://github.com/inifaisal">Github repo</a> if you interest to see what i do.
+        </p>
+        <h2>Skills</h2>
+        <strong>Programming Languages</strong>
+        <ul>
+          <li>PHP <span class="level">&lt;?php echo "Like pro"; ?&gt;</span></li>
+          <li>Javacript <span class="level">&lt;script type="text/javascript"&gt; console.log("Beginner"); &lt;/script&gt;</span></li>
+          <li>Python <span class="level">&gt;&gt;&gt; print ("Beginner");</span></li>
+          <li>Java <span class="level">system.out.println("Beginner");</span></li>
+        </ul>
+        <strong>Framework</strong>
+        <ul>
+          <li>Laravel</li>
+          <li>Angular</li>
+          <li>Android</li>
+          <li>Jquery</li>
+          <li>Express</li>
+          <li>Django</li>
+          <li>Bootstrap</li>
+        </ul>
+        <strong>Other</strong>
+        <ul>
+          <li>Linux</li>
+          <li>SQL</li>
+          <li>Sass</li>
+          <li>Rest API</li>
+          <li>Git</li>
+        </ul>
+
+        <strong>Languages</strong>
+        <ul>
+          <li>Indonesia <span class="level">(Native)</span></li>
+          <li>English <span class="level">(Pasif)</span></li>
+        </ul>
       </div>
-    </section>
-    {% include footer.html %}
-    {% include js.html %}
-  </body>
-  </html>
+    </div>
+  </section>
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+</html>

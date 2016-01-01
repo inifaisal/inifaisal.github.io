@@ -1,3 +1,7 @@
-```bash
-browser-sync start --proxy="127.0.0.1:4000" --files='_site/**' --no-open
-```
+### Todo
+#### Feature
+- Add new ticker in labs
+
+
+### Post
+- Buat post tentang Angular
