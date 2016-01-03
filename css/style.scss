@@ -305,6 +305,9 @@ hr{
         padding-left: 100px;
         padding-right: 100px;
     }
+    h3, h4, h5, h6 {
+        padding: 10px 0;
+    }
     img {
         display: block;
         max-width: 100%;
@@ -409,7 +412,7 @@ hr{
         color: #fafafa;
         background: $page-resume;
         &:hover {
-            opacity: 0.7;
+            background: darken($page-resume, 5%);
         }
     }
 }
