@@ -11,18 +11,18 @@ Dalam pengembangan aplikasi berbasis angular 2 itu ada berbagai cara yang bisa d
 ### Persiapan
 Sebelumnya install dulu beberapa module berikut ini secara global di system kalian, dengan menjalankan perintah berikut di terminal!
 
-{% highlight console %}
+{% highlight bash %}
 $ sudo npm install typescript tds
 {% endhighlight %}
 
 Setelah terinstall, silahkan anda unduh atau clone dulu repository berikut [angular2-minimal-starter](https://github.com/inifaisal/angular2-minimal-starter), setelah itu, cd atau masuk ke directory angular2-minimal-starter dan pada terminal jalankan perintah berikut!
 
-{% highlight console %}
+{% highlight bash %}
 $ npm install
 {% endhighlight %}
 Berikutnya jalankan pula perintah berikut!
 
-{% highlight console %}
+{% highlight bash %}
 $ tds install
 {% endhighlight %}
 
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
 - Setelah itu saatnya menjalankan aplikasi yang telah kita buat tersebut, jalankan perintah berikut pada terminal!
 
-{% highlight console %}
+{% highlight bash %}
 $ npm run server
 {% endhighlight %}
 
@@ -116,4 +116,3 @@ Jika anda mempunyai pertanyaan atau ada yang kurang di mengerti, silahkan anda b
 - [Kumpulan Tutorial Lainnya tentang Angular 2](http://onehungrymind.com)
 
 Sekian terima kasih, semoga bermanfaat.
-

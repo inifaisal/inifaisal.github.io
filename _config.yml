@@ -1,3 +1,4 @@
+version: v1.1.0
 # Site settings
 
 # NB! Set your site's url, otherwise stuff will break :)
@@ -106,7 +107,10 @@ pages_list:
 exclude: ["LICENSE", "README.md", "scripts"]
 
 markdown: kramdown
-syntax_highlighter: pygments
+kramdown:
+  input: GFM
+
+highlighter: pygments
 
 # Enable minification SASS
 
