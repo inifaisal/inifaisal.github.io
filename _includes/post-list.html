@@ -1,10 +1,15 @@
 <h4 align="left">
-  <br class="visible-xs-block">
-  <a href="{{site.baseurl}}{{post.url}}">
-    <strong>{{ post.title }}</strong>
-  </a>
-  <br>
-  <small style="text-transform: capitalize"><strong>{{ post.date | date_to_string }}</strong></small>
-  <small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+	<br class="visible-xs-block">
+	<a href="{{site.baseurl}}{{post.url}}">
+		<strong>{{ post.title }}</strong>
+	</a>
+	<br>
+	<small style="text-transform: capitalize"><strong>{{ post.date | date_to_string }}</strong></small>
+	<small><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+	<small>
+		{% for tag in post.tags %}
+		<a style="color: #414141" href="{{site.baseurl}}/tags/{{tag}}/">#{{ tag }}</a>
+		{% endfor %}
+	</small>
 </h4>
 <hr>

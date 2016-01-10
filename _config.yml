@@ -51,18 +51,6 @@ permalink: /:year/:month/:title
 paginate: 10
 paginate_path: "blog/page:num/"
 
-# Archives Page
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    tag: 'tag'
-    category : 'categories'
-  permalinks:
-    tag: '/tags/:name/'
-    category: '/category/:name/'
-
 
 ################
 # Social Share #
