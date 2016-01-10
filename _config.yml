@@ -106,11 +106,11 @@ pages_list:
 
 exclude: ["LICENSE", "README.md", "scripts"]
 
-
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: pygments
+
+syntax_highlighter: pygments
 
 # Enable minification SASS
 
