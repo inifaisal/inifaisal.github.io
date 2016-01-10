@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
 - Selanjutnya pada folder src/public, buat sebuat file index.html dan masukkan script berikut!
 
-```html
+{% highlight html linenos %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function main() {
   <script src="/__build__/app.js"></script>
 </body>
 </html>
-```
+{% endhighlight %}
 
 - Setelah itu saatnya menjalankan aplikasi yang telah kita buat tersebut, jalankan perintah berikut pada terminal!
 

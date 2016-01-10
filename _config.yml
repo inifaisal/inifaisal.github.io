@@ -110,7 +110,7 @@ exclude: ["LICENSE", "README.md", "scripts"]
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter: pygments
 
 # Enable minification SASS
 
