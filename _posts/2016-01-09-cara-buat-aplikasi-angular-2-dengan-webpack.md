@@ -11,20 +11,20 @@ Dalam pengembangan aplikasi berbasis angular 2 itu ada berbagai cara yang bisa d
 ### Persiapan
 Sebelumnya install dulu beberapa module berikut ini secara global di system kalian, dengan menjalankan perintah berikut di terminal!
 
-{% highlight bash %}
+{%highlight bash%}
 $ sudo npm install typescript tds
-{% endhighlight %}
+{%endhighlight%}
 
 Setelah terinstall, silahkan anda unduh atau clone dulu repository berikut [angular2-minimal-starter](https://github.com/inifaisal/angular2-minimal-starter), setelah itu, cd atau masuk ke directory angular2-minimal-starter dan pada terminal jalankan perintah berikut!
 
-{% highlight bash %}
+{%highlight bash%}
 $ npm install
-{% endhighlight %}
+{%endhighlight%}
 Berikutnya jalankan pula perintah berikut!
 
-{% highlight bash %}
+{%highlight bash%}
 $ tds install
-{% endhighlight %}
+{%endhighlight%}
 
 Perintah diatas akan menginstall semua module-module yanng kita butuhkan, sampai tahap ini aplikasi kita sudah bisa di jalankan namun belum menampilkan apa-apa, saatnya ketahapan berikutnya.
 
@@ -33,7 +33,7 @@ setelah semua module terinstall, saatnya kita membuat aplikasi sederhana yaitu m
 
 - di folder src/app ada file app.ts, buka dan edit file tersebut dengan menggunakan text editor favorite kalian, edit agar sesuai dengan script berikut!
 
-{% highlight javascript %}
+{%highlight javascript%}
 import {Componen} from 'angular2/core';
 
 @Componen({
@@ -46,7 +46,7 @@ import {Componen} from 'angular2/core';
 export class App{
 
 }
-{% endhighlight %}
+{%endhighlight%}
 
 - Setelah itu pada folder src ada file bootstrap.ts, buka dan edit file tersebut, seperti pada script berikut!
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
 - Selanjutnya pada folder src/public, buat sebuat file index.html dan masukkan script berikut!
 
-{% highlight html %}
+{%highlight html%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -87,13 +87,13 @@ document.addEventListener('DOMContentLoaded', function main() {
   <script src="/__build__/app.js"></script>
 </body>
 </html>
-{% endhighlight %}
+{%endhighlight%}
 
 - Setelah itu saatnya menjalankan aplikasi yang telah kita buat tersebut, jalankan perintah berikut pada terminal!
 
-{% highlight bash %}
+{%highlight bash%}
 $ npm run server
-{% endhighlight %}
+{%endhighlight%}
 
 Jika tak ada yang error, seperti yang terlihat pada gambar berikut:
 

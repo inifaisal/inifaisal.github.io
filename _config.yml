@@ -106,7 +106,7 @@ pages_list:
 
 exclude: ["LICENSE", "README.md", "scripts"]
 
-markdown: redcarpet
+markdown: kramdown
 kramdown:
   input: GFM
 
