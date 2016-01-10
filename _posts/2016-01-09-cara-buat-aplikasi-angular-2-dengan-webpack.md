@@ -11,18 +11,18 @@ Dalam pengembangan aplikasi berbasis angular 2 itu ada berbagai cara yang bisa d
 ### Persiapan
 Sebelumnya install dulu beberapa module berikut ini secara global di system kalian, dengan menjalankan perintah berikut di terminal!
 
-``` bash
+```bash
 $ sudo npm install typescript tds
 ```
 
 Setelah terinstall, silahkan anda unduh atau clone dulu repository berikut [angular2-minimal-starter](https://github.com/inifaisal/angular2-minimal-starter), setelah itu, cd atau masuk ke directory angular2-minimal-starter dan pada terminal jalankan perintah berikut!
 
-``` bash
+```bash
 $ npm install
 ```
 Berikutnya jalankan pula perintah berikut!
 
-``` bash
+```bash
 $ tds install
 ```
 
@@ -33,7 +33,7 @@ setelah semua module terinstall, saatnya kita membuat aplikasi sederhana yaitu m
 
 - di folder src/app ada file app.ts, buka dan edit file tersebut dengan menggunakan text editor favorite kalian, edit agar sesuai dengan script berikut!
 
-``` javascript
+```javascript
 import {Componen} from 'angular2/core';
 
 @Componen({
@@ -50,7 +50,7 @@ export class App{
 
 - Setelah itu pada folder src ada file bootstrap.ts, buka dan edit file tersebut, seperti pada script berikut!
 
-``` javascript
+```javascript
 import {bootstrap} from 'angular2/platform/browser';
 
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
 - Selanjutnya pada folder src/public, buat sebuat file index.html dan masukkan script berikut!
 
-``` html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function main() {
 
 - Setelah itu saatnya menjalankan aplikasi yang telah kita buat tersebut, jalankan perintah berikut pada terminal!
 
-``` bash
+```bash
 $ npm run server
 ```
 
