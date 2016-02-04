@@ -184,22 +184,28 @@ hr{
     position: relative;
     padding: 120px 0 60px;
     display: flex;
+    z-index: 0;
     //border-bottom:  1px solid #ddd;
     h1, h2, h3, h4, h5, h6 {
         text-transform: capitalize;
     }
 
     @media(max-width: 769px) {
-        padding: 80px 0 20px;
+        padding: 100px 0 70px;
         display: block;
         h1 {
-            font-size: 20px;
+            font-size: 25px;
 
         }
         h4 {
-            font-size: 13px;
+            font-size: 17px;
         }
     }
+
+    .title {
+        z-index: 12;
+    }
+
     &.page-index {
         background: $page-index;
         border-bottom:  1px solid lighten($page-index, 10%);
