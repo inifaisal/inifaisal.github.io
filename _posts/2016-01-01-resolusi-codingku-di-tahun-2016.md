@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: Resolusiku Codingku di Tahun 2016
+title: Resolusi Codingku di Tahun 2016
 image : 'img/04_Apex-HD-Wallpaper-Ace-Combat-5.jpg'
 category: General
 tags: [ 'resolusi', 'javascript', 'android', 'php', 'laravel', 'angular']
